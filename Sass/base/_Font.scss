@@ -1,0 +1,17 @@
+/* =============================================================================
+   font.scss - @font-face definitions
+   ========================================================================== */
+
+
+   @font-face {
+       font-family: 'font-awesome';
+       src:url('./res/webfonts/icomoon.eot?wzzfja');
+       src:url('./res/webfonts/icomoon.eot?#iefixwzzfja') format('embedded-opentype'),
+       url('./res/webfonts/icomoon.ttf?wzzfja') format('truetype'),
+       url('./res/webfonts/icomoon.woff?wzzfja') format('woff'),
+       url('./res/webfonts/icomoon.svg?wzzfja#icomoon') format('svg');
+       font-weight: normal;
+       font-style: normal;
+   }
+
+   @font-face {font-family: 'ForteMTStd';src: url('../Fonts/31FE46_0_0.eot');src: url('../Fonts/31FE46_0_0.eot?#iefix') format('embedded-opentype'),url('../Fonts/31FE46_0_0.woff2') format('woff2'),url('../Fonts/31FE46_0_0.woff') format('woff'),url('../Fonts/31FE46_0_0.ttf') format('truetype');}

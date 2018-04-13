@@ -1,0 +1,205 @@
+.subpage1{
+    .content-color{
+        padding-top:6rem;
+        padding-bottom:9rem;
+
+        h3{
+            text-align: center;
+            font-size:5.3em;
+
+            margin-bottom:3rem;
+            font-family:"ForteMTStd";
+        }
+
+        p{
+
+            font-size:1.3rem;
+            font-family: "sofia-pro-soft";
+        }
+
+        @media (max-width: 768px) {
+            padding-top:3rem;
+            padding-bottom:5rem;
+
+            h3{
+                font-size:2em;
+                margin-bottom:1.5rem;
+            }
+
+            p{
+                font-size:1em;
+            }
+        }
+
+    }
+
+    .content-red{
+        background-color:$color-red;
+        h3{
+            color:$color-text-red;
+        }
+        p{
+            color:$color-text-red;
+        }
+
+    }
+    .content-blue{
+        background-color:$color-blue;
+        h3{
+            color:$color-text-blue;
+        }
+        p{
+            color:$color-text-blue;
+        }
+    }
+    .content-green{
+        background-color:$color-green;
+        h3{
+            color:$color-text-green;
+        }
+        p{
+            color:$color-text-green;
+        }
+    }
+    .content-pink{
+        background-color:$color-pink;
+        h3{
+            color:$color-text-pink;
+        }
+        p{
+            color:$color-text-pink;
+        }
+    }
+    .content-light-blue{
+        background-color:$color-light-blue;
+        h3{
+            color:$color-text-light-blue;
+        }
+        p{
+            color:$color-text-light-blue;
+        }
+    }
+}
+
+
+.subpage2{
+    .content{
+        padding-top:6rem;
+        padding-bottom:5rem;
+        clear:both;
+
+        h3{
+            text-align: center;
+            font-size:5em;
+
+            margin-bottom:2rem;
+            font-family:"ForteMTStd";
+        }
+
+        p{
+            text-align: center;
+            font-size:2.2em;
+            font-family: "sofia-pro-soft";
+        }
+
+        @media (max-width: 768px) {
+            padding-top:3rem;
+            padding-bottom:1.5rem;
+
+            h3{
+                font-size:2em;
+                margin-bottom:1.5rem;
+            }
+
+            p{
+                font-size:1em;
+            }
+        }
+    }
+
+    .content-red{
+        background-color:$color-red;
+        h3{
+            color:$color-text-red;
+        }
+        p{
+            color:$color-text-red;
+        }
+
+    }
+    .content-blue{
+        background-color:$color-blue;
+        h3{
+            color:$color-text-blue;
+        }
+        p{
+            color:$color-text-blue;
+        }
+    }
+    .content-green{
+        background-color:$color-green;
+        h3{
+            color:$color-text-green;
+        }
+        p{
+            color:$color-text-green;
+        }
+    }
+    .content-pink{
+        background-color:$color-pink;
+        h3{
+            color:$color-text-pink;
+        }
+        p{
+            color:$color-text-pink;
+        }
+    }
+    .content-light-blue{
+        background-color:$color-light-blue;
+        h3{
+            color:$color-text-light-blue;
+        }
+        p{
+            color:$color-text-light-blue;
+        }
+    }
+
+    .table-wrap-img-map{
+        width:100%;
+        .wrap-map{
+             float:left;
+             width: 50%;
+            .google-maps{
+                 width:100%;
+
+             }
+        }
+
+        .wrap-img{
+             float:right;
+             width: 50%;
+             img{
+                 display: block;
+                 width:100%;
+                 height:auto;
+
+             }
+        }
+        @media (max-width: 480px) {
+            .wrap-map{
+            	float:none;
+            	width:100%;
+            	height:300px;
+            	.google-maps{
+            		height:300px!important;
+            	}
+            }
+            .wrap-img{
+            	float:none;
+            	width:100%;
+            }
+        }
+    }
+
+
+}

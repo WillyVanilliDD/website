@@ -1,0 +1,36 @@
+footer{
+
+    ul{
+        text-align: center;
+
+
+        li{
+            margin-top:1.3rem;
+            margin-bottom:1.3rem;
+            display:inline;
+            float:left;
+            &:last-child{
+                float:right;
+            }
+            a{
+                color:$color-text-nav;
+                text-decoration: none;
+                font-family: "sofia-pro-soft";
+            }
+
+            &:hover{
+                text-decoration: underline;
+            }
+
+
+            @media (max-width: 998px) {
+                margin:0;
+                display:block;
+                float:none !important;
+                padding-top:0.4rem;
+                padding-bottom:0.4rem;
+            }
+
+        }
+    }
+}

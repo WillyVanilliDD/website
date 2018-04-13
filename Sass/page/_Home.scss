@@ -1,0 +1,37 @@
+/* ==========================================================================
+   home.scss - Homepage elements
+   ========================================================================== */
+
+section{
+    min-height: 500px;
+    background-color: $color-home-background;
+
+}
+
+.home{
+    padding-top:6rem;
+    padding-bottom:10rem;
+    .content{
+        p{
+            font-size:1.4em;
+            font-family: "sofia-pro-soft";
+        }
+    }
+
+
+
+
+    @media (max-width: 768px) {
+        padding-top: 4rem;
+        padding-bottom:4rem;
+        .content{
+            p{
+                font-size:0.9em;
+            }
+        }
+
+    }
+
+
+
+}

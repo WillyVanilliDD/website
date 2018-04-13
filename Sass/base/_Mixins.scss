@@ -1,0 +1,76 @@
+// Border Radius
+@mixin border-radius($radius: 5px) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+          border-radius: $radius;
+}
+
+// Border Radius Bottom
+@mixin border-radius-bottom($radius: 5px) {
+  -webkit-border-radius:              0 0 $radius $radius;
+     -moz-border-radius-topleft:      0;
+     -moz-border-radius-topright:     0;
+     -moz-border-radius-bottomright:  $radius;
+     -moz-border-radius-bottomleft:   $radius;
+     -moz-border-radius:              0 0 $radius $radius;
+          border-radius:              0 0 $radius $radius;
+}
+
+// Drop shadows
+@mixin box-shadow($shadow: 0 0 6px #b8b8b8) {
+  -webkit-box-shadow: $shadow;
+     -moz-box-shadow: $shadow;
+          box-shadow: $shadow;
+}
+
+// Transitions
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+     -moz-transition: $transition;
+      -ms-transition: $transition;
+       -o-transition: $transition;
+          transition: $transition;
+}
+
+@mixin transitionThreeElements($transition1,$transition2,$transition3) {
+  -webkit-transition: $transition1,transition2,transition3;
+     -moz-transition:$transition1,transition2,transition3;
+      -ms-transition: $transition1,transition2,transition3;
+       -o-transition: $transition1,transition2,transition3;
+          transition: $transition1,transition2,transition3;
+}
+
+// Transform
+@mixin transform($transformation) {
+	-webkit-transform: $transformation;
+	-moz-transform: $transformation;
+	-ms-transform: $transformation;
+	-ms-transform: $transformation;
+	-o-transform: $transformation;
+	transform: $transformation;
+}
+
+// box-sizing: border-box
+@mixin border-box() {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+// linear gradient
+@mixin gradient($bottomColor, $topColor) {
+	background-color: $topColor;
+	background-image: linear-gradient(bottom, $bottomColor 0%, $topColor 100%);
+	background-image: -o-linear-gradient(bottom, $bottomColor 0%, $topColor 100%);
+	background-image: -moz-linear-gradient(bottom, $bottomColor 0%, $topColor 100%);
+	background-image: -webkit-linear-gradient(bottom, $bottomColor 0%, $topColor 100%);
+	background-image: -ms-linear-gradient(bottom, $bottomColor 0%, $topColor 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, $bottomColor),
+		color-stop(1, $topColor)
+	);
+}

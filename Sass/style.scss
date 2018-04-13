@@ -1,0 +1,21 @@
+/* ==========================================================================
+   style.scss - Main stylesheet. Use this file only to include other files
+   !!!IMPORTANT!!!: do not leave comments around @import, but remove the imports (TYPO3 compressor problem)
+   ========================================================================== */
+@import 'base/_Normalize';
+@import 'base/_Reset';
+@import 'base/_Variables';
+@import 'base/_Mixins';
+@import 'base/_Helpers';
+@import 'base/_Font';
+
+@import 'grid/_Grid';
+
+@import 'page/_Page';
+@import 'page/_Header';
+@import 'page/_Navigation';
+@import 'page/_Content';
+@import 'page/_Home';
+@import 'page/_Footer';
+
+@import 'responsive/_Print';
