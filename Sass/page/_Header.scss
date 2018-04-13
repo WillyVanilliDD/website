@@ -89,7 +89,7 @@ header{
             line-height: 2em;
             width:100%;
             font-size:2.7em;
-            font-family:"ForteMTStd";
+            font-family:"Forte";
 
             @media (max-width: 768px) {
                 line-height: 1;
@@ -145,23 +145,24 @@ header{
             font-size:5em;
 
             margin-bottom:2rem;
-            font-family:"ForteMTStd";
+            font-family:"Forte";
 
             /*@media (max-width: 768px) {
                 font-size:3em;
                 margin-bottom:3rem;
             }*/
         }
-        
+
         p{
        		text-align: center;
             font-size:2.2em;
-            font-family: "sofia-pro-soft";
+            font-family: "Sofia Pro Soft", sans-serif;
             max-width:1050px;
-            padding-left:50px;            
+            padding-left:50px;
             padding-right:50px;
             margin-left:auto;
             margin-right:auto;
+            line-height: 3rem;
         }
     }
 }

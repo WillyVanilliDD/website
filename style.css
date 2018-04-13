@@ -503,9 +503,18 @@ legend {
   font-style: normal; }
 
 @font-face {
-  font-family: 'ForteMTStd';
-  src: url("../Fonts/31FE46_0_0.eot");
-  src: url("../Fonts/31FE46_0_0.eot?#iefix") format("embedded-opentype"), url("../Fonts/31FE46_0_0.woff2") format("woff2"), url("../Fonts/31FE46_0_0.woff") format("woff"), url("../Fonts/31FE46_0_0.ttf") format("truetype"); }
+  font-family: 'Forte';
+  src: url("Fonts/ForteMT.eot");
+  src: url("Fonts/ForteMT.eot?#iefix") format("embedded-opentype"), url("Fonts/ForteMT.woff2") format("woff2"), url("Fonts/ForteMT.woff") format("woff"), url("Fonts/ForteMT.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Sofia Pro Soft';
+  src: url("Fonts/SofiaProSoftRegular.eot");
+  src: url("Fonts/SofiaProSoftRegular.eot?#iefix") format("embedded-opentype"), url("Fonts/SofiaProSoftRegular.woff2") format("woff2"), url("Fonts/SofiaProSoftRegular.woff") format("woff"), url("Fonts/SofiaProSoftRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 
 /* =============================================================================
    grid.scss - Default Bootstrap3 Grid
@@ -1278,10 +1287,10 @@ input[type="search"]::-webkit-search-decoration {
     text-align: center;
     font-size: 5.3em;
     margin-bottom: 3rem;
-    font-family: "ForteMTStd"; }
+    font-family: "Forte"; }
   .subpage1 .content-color p {
     font-size: 1.3rem;
-    font-family: "sofia-pro-soft"; }
+    font-family: "Sofia Pro Soft"; }
   @media (max-width: 768px) {
     .subpage1 .content-color {
       padding-top: 3rem;
@@ -1335,11 +1344,12 @@ input[type="search"]::-webkit-search-decoration {
     text-align: center;
     font-size: 5em;
     margin-bottom: 2rem;
-    font-family: "ForteMTStd"; }
+    font-family: "Forte", sans-serif; }
   .subpage2 .content p {
     text-align: center;
     font-size: 2.2em;
-    font-family: "sofia-pro-soft"; }
+    line-height: 3rem;
+    font-family: "Sofia Pro Soft", sans-serif; }
   @media (max-width: 768px) {
     .subpage2 .content {
       padding-top: 3rem;
@@ -1484,7 +1494,7 @@ header {
       line-height: 2em;
       width: 100%;
       font-size: 2.7em;
-      font-family: "ForteMTStd"; }
+      font-family: "Forte"; }
       @media (max-width: 768px) {
         header .titles h1 {
           line-height: 1;
@@ -1537,7 +1547,7 @@ header {
       text-align: center;
       font-size: 5em;
       margin-bottom: 2rem;
-      font-family: "ForteMTStd";
+      font-family: "Forte";
       /*@media (max-width: 768px) {
                 font-size:3em;
                 margin-bottom:3rem;
@@ -1545,12 +1555,13 @@ header {
     header .titles p {
       text-align: center;
       font-size: 2.2em;
-      font-family: "sofia-pro-soft";
+      font-family: "Sofia Pro Soft", sans-serif;
       max-width: 1050px;
       padding-left: 50px;
       padding-right: 50px;
       margin-left: auto;
-      margin-right: auto; }
+      margin-right: auto;
+      line-height: 3rem; }
 
 nav.mainnav ul {
   position: relative; }
@@ -1572,7 +1583,7 @@ nav.mainnav ul {
       padding-right: 0.7rem;
       color: #747474;
       text-decoration: none;
-      font-family: "sofia-pro-soft"; }
+      font-family: "Sofia Pro Soft"; }
       nav.mainnav ul li a img {
         position: absolute;
         top: 17px;
@@ -1615,11 +1626,11 @@ nav.mainnav ul {
   margin-left: 18px; }
 
 .gm-style-iw div.headline {
-  font-family: "ForteMTStd";
+  font-family: "Forte", sans-serif;
   font-size: 2em; }
 
 .gm-style-iw div.inputdiv {
-  padding: 10px 0px; }
+  padding: 10px 0; }
   .gm-style-iw div.inputdiv input {
     width: 100%; }
 
@@ -1635,7 +1646,7 @@ section {
   padding-bottom: 10rem; }
   .home .content p {
     font-size: 1.4em;
-    font-family: "sofia-pro-soft"; }
+    font-family: "Sofia Pro Soft"; }
   @media (max-width: 768px) {
     .home {
       padding-top: 4rem;
@@ -1655,7 +1666,7 @@ footer ul {
     footer ul li a {
       color: #747474;
       text-decoration: none;
-      font-family: "sofia-pro-soft"; }
+      font-family: "Sofia Pro Soft"; }
     footer ul li:hover {
       text-decoration: underline; }
     @media (max-width: 998px) {
