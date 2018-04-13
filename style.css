@@ -1290,13 +1290,14 @@ input[type="search"]::-webkit-search-decoration {
     font-family: "Forte"; }
   .subpage1 .content-color p {
     font-size: 1.3rem;
-    font-family: "Sofia Pro Soft"; }
+    font-family: "Sofia Pro Soft", sans-serif;
+    line-height: 2rem; }
   @media (max-width: 768px) {
     .subpage1 .content-color {
       padding-top: 3rem;
       padding-bottom: 5rem; }
       .subpage1 .content-color h3 {
-        font-size: 2em;
+        font-size: 2.25em;
         margin-bottom: 1.5rem; }
       .subpage1 .content-color p {
         font-size: 1em; } }
